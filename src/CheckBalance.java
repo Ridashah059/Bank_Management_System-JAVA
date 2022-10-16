@@ -1,6 +1,7 @@
 import javax.swing.*;
 
-public class CheckBalance extends AccountsData{
+class CheckBalance extends AccountsData {
+
     static int option;
 
     public static void checkBalance() {
