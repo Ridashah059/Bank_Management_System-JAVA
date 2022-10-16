@@ -1,11 +1,12 @@
 import javax.swing.*;
 
-public class AccountDetails extends AccountsData{
+class AllAccountsDetails extends AccountsData {
     int option;
-
     public static void accountsDetails() {
         JOptionPane.showMessageDialog(null,
-                "All Accounts Details\n\nAccounts User Id and Names\n\n" + "Id: " + id[0] + "      Name: " + name[0]
+                "All Accounts Details\n\nAccounts User Id and Names\n\n"
+                        + "Id: " + id[0]
+                        + "      Name: " + name[0]
                         + "\n\nId: " + id[1]
                         + "      Name: " + name[1] + "\n\nId: " + id[2] + "      Name: " + name[2] + "\n\nId: " + id[3]
                         + "      Name: " + name[3] + "\n\nId: " + id[4] + "      Name: " + name[4] + "\n\nId: " + id[5]
