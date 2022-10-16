@@ -1,9 +1,12 @@
 import javax.swing.*;
 
-public class IdDetails extends AccountsData{
+// Search by ID Details Class
+
+class SearchbyIdDetails extends AccountsData {
+
     static int option;
 
-    public static void IdDetails() {
+    public static void searchbyIdDetails() {
         option = Integer.parseInt(JOptionPane.showInputDialog("Enter the user Id from 0 to 9:  "));
 
         if (option >= 0 && option <= 9) {
