@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class DepositAmount extends AccountsData{
+class DepositAmount extends AccountsData {
     static int option;
     static int amount;
 
